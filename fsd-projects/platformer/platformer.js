@@ -31,13 +31,23 @@ $(function () {
     toggleGrid()
 
     // TODO 2 - Create Platforms
-    createPlatform(600, 500, 10, 100)
+    createPlatform(300, 650, 100, 100);
+    createPlatform(500, 600, 200, 100);
+    createPlatform(700, 500, 100, 100);
+    createPlatform(400, 400, 200, 100);
+    createPlatform(900, 400, 100, 100);
 
     
     // TODO 3 - Create Collectables
+    createCollectable("database", 1000, 200);
+    createCollectable("database", 800, 400);
+    createCollectable("database", 400, 100, 0.5, 0.7);
 
     
     // TODO 4 - Create Cannons
+    createCannon("right", 300, 700);
+    createCannon("top", 500, 700);
+    createCannon("left", 400, 700)
 
 
     
